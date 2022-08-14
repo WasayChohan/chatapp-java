@@ -149,13 +149,9 @@ public class Client extends JFrame {
                 // e.printStackTrace();
                 System.out.println("Connection closed");
             }
-
         };
-
         new Thread(r1).start();
     }
-
-    
 
     //start Writing [Method]
     public void startWriting() {
